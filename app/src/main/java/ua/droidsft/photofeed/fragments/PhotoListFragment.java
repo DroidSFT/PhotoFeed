@@ -148,6 +148,7 @@ public class PhotoListFragment extends BusFragment {
         mPhotoItems.addAll(items);
         setupAdapter();
         mSwipeRefreshLayout.setRefreshing(false);
+        mRecyclerView.scrollToPosition(0);
     }
 
     @Subscribe
