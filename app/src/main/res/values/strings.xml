@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Photo Feed</string>
+    <string name="no_photos">No photos loaded. Swipe down to refresh.</string>
+    <string name="image_desc">Image preview</string>
+    <string name="service_error">Sorry, photo service is unavailable.\nCheck your internet connection.</string>
+    <string name="empty_list">Sorry, found no photos matching your request: \"%1$s\".</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_recent">Recent photos</string>
+    <string name="page_uri_failed">Sorry, could not found url for this photo.</string>
+    <string name="chooser_title">Choose an app for this action:</string>
+    <string name="retry">Retry</string>
+    <string name="no_title">&lt;untitled&gt;</string>
+</resources>
