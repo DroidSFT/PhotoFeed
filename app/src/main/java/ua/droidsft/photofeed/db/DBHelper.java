@@ -28,7 +28,7 @@ public class DBHelper {
         return new Select().from(PhotoItem.class).queryList();
     }
 
-    public void saveAll(List<PhotoItem> items) {
+    public synchronized void saveAll(List<PhotoItem> items) {
         new Delete().from(PhotoItem.class).queryClose();
         for (PhotoItem item : items) {
             item.save();
